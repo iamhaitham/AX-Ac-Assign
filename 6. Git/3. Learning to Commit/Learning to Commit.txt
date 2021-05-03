@@ -1,0 +1,16 @@
+cd Desktop/
+mkdir test/
+cd test/
+touch index.html
+touch style.css
+git init
+git add .
+git commit -m "This is a comment before updating my files"
+git add .
+git commit -m "Updated html file"
+git add .
+git commit -m "Updated css file"
+git log
+git revert ea9e7a42ca2a0bb9afc998642c4f716f2036c3bd
+git add .
+git commit -m "Updated css file after reverting to the last commit"
