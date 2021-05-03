@@ -1,0 +1,30 @@
+USE lead_gen_business;
+
+SELECT * FROM clients;
+
+INSERT INTO lead_gen_business.clients(first_name,last_name,email,joined_datetime)
+VALUES('John','Doe','J.Doe@village88.com',NOW());
+
+INSERT INTO lead_gen_business.clients(first_name,last_name,email,joined_datetime)
+VALUES('John','Doe','J.Doe@village88.com',NOW());
+
+SELECT * FROM clients;
+
+UPDATE lead_gen_business.clients SET
+first_name='Jack',
+email='Jack.Doe@village88.com'
+WHERE id=11;
+
+SELECT * FROM clients;
+
+DELETE FROM lead_gen_business.clients
+WHERE id=12;
+
+SELECT * FROM clients;
+
+CREATE TABLE TEST (
+id INT,
+age TINYINT,
+Major VARCHAR(45),
+Interests TEXT
+);

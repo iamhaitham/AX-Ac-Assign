@@ -1,0 +1,296 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+
+body {
+    font-family: arial;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+#SPAN1 {
+    color: #474747;
+}
+
+#SPAN2 {
+    color: #23669f;
+}
+
+.headerSPAN {
+    font-size: 250%;
+    align-self: center;
+}
+
+header>img {
+    width: 80px;
+    height: 80px;
+}
+
+#navbar {
+    background-image: linear-gradient(#2b6aa0, #5183ac, #2869a0);
+    color: white;
+    font-size: 180%;
+    margin-top: -15px;
+}
+
+#navbar>p {
+    padding: 10px;
+}
+
+#side {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+}
+
+#sideP1 {
+    margin-top: 20px;
+    margin-bottom: 7.5px;
+    font-weight: 700;
+    margin-left: 5px;
+    font-size: 120%;
+}
+
+#sideP2 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    margin-left: 5px;
+    font-size: 105%;
+}
+
+#SPAN3 {
+    color: red;
+}
+
+.SPAN4 {
+    color: #2a6aa1;
+}
+
+.SIDEBUTTON {
+    font-size: 110%;
+    width: 90%;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+}
+
+#SIDEBUTTON1 {
+    box-shadow: 2px 2px 3px #a2a2a2;
+    background-image: linear-gradient(#5d93c0, #4581b2, #286aa1);
+}
+
+#SIDEBUTTON2 {
+    box-shadow: 2px 2px 3px #8f8f8f;
+    background-image: linear-gradient(#ecaa50, #ed9425, #f07400);
+    margin-bottom: 20px;
+}
+
+.SIDEBUTTON a {
+    color: white;
+    text-decoration: none;
+}
+
+#horizontalLine {
+    background-color: #d3d3d3;
+    width: 90%;
+    height: 2px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+#advertisement {
+    background-image: url('ad_background.png');
+    height: 300px;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 3px #a8a8a8;
+    margin-left: 5px;
+}
+
+#advertisement>p {
+    color: white;
+    font-size: 160%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+#NINJA {
+    width: 100px;
+    height: 130px;
+    margin-left: 27%;
+    margin-bottom: 10px;
+}
+
+#LEARNMORE {
+    border-radius: 5px;
+    background-image: linear-gradient(#76d0df, #33c8e0, #00c1df);
+    box-shadow: 2px 2px 3px #303030;
+    text-align: center;
+    font-size: 120%;
+    padding: 5px;
+    width: 65%;
+    margin-left: 15%;
+}
+
+#LEARNMORE a {
+    color: #feffff;
+    text-decoration: none;
+}
+
+#SPAN5 {
+    color: #84deec;
+    font-size: 70%;
+}
+
+#SPAN6 {
+    color: #c0edf6;
+    font-size: 70%;
+}
+
+#SPAN7 {
+    color: #fdffff;
+    font-size: 70%;
+}
+
+#article {
+    width: 83%;
+}
+
+#article2 {
+    margin-left: 4%;
+}
+
+#article2>h2 {
+    color: #22659e;
+    margin-top: 10px;
+}
+
+#article2P1 {
+    margin-top: 10px;
+}
+
+.SPAN8 a {
+    color: #0097ae;
+    text-decoration: none;
+}
+
+.SPAN9 {
+    font-weight: 750;
+}
+
+#article2>ul {
+    margin-top: 5px;
+}
+
+#article2>ul li {
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+#article2>img {
+    margin: 10px 5px 5px 20%;
+    width: 40%;
+    height: 40%;
+}
+
+#article2>ol {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    border-top: 7px solid #0085e0;
+    border-left: 7px solid #0085e0;
+    border-right: 7px solid #0085e0;
+    width: 80%;
+}
+
+#footer img {
+    width: 145px;
+    height: 115px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#footer div h2 {
+    color: #22659e;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#footer p {
+    margin-left: 10px;
+}
+
+#SPAN10 {
+    font-style: italic;
+}
+
+#SPAN11 {
+    color: #22659e;
+    font-size: 120%;
+    margin-left: 3px;
+}
+
+#article1IMG1 {
+    width: 30px;
+    height: 30px;
+}
+
+#article1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#article12 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.grey {
+    color: #575757;
+}
+
+#BLUE {
+    color: #00c0df;
+    font-size: 210%;
+    font-weight: 700;
+}
+
+#article12IMG {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+#article11 {
+    margin-top: 10px;
+}
+
+#horizontalLine2 {
+    width: 100%;
+    height: 2px;
+    background-color: #cecece;
+}

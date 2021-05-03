@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="jQuery Functions Assignment Solution">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Functions</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("div").addClass("line");
+            $(".line").css("background-color", "#ff3d62")
+            $("body").css("color", "#3D61FF");
+            $("#txt").css("display", "none");
+            $("#btn1").click(function() {
+                $("#txt").show()
+            });
+            $("#btn2").click(function() {
+                $("#txt").hide()
+            });
+
+            $("#btn3").click(function() {
+                $("#line2").slideDown();
+            });
+            $("#btn4").click(function() {
+                $("#line2").slideUp()
+            });
+            $("#pH3").css("display", "none");
+            $("h3").click(function() {
+                $("#pH3").toggle();
+            });
+            $("#btn5").click(function() {
+                $("#imgjQuery").fadeIn();
+            });
+            $("#btn6").click(function() {
+                $("#imgjQuery").fadeOut();
+            });
+            $("#btn7").click(function() {
+                $("#imgjQuery").slideToggle();
+            });
+            $("#btn8").click(function() {
+                $("#btn8").before("a text BEFORE the button");
+            });
+            $("#btn9").click(function() {
+                $("#btn9").after("a text AFTER the button");
+            });
+            $("#pSPAN").click(function() {
+                $("#pSPAN span").html("<span>jQuery</span>");
+            });
+            $("#pSPAN2").click(function() {
+                $("#pSPAN2").append("<span>This is a span added by .append()</span>")
+            });
+            $("#btn10").click(function() {
+                $("#pacman").attr("width", "100");
+                $("#pacman").attr("height", "100");
+            });
+            $("#btn11").click(function() {
+                $("#txtform").val("User");
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <h1>Welcome to my webpage</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem delectus quae obcaecati minus quam voluptate earum vel accusantium. Voluptate doloribus sapiente cumque laborum at aliquam tempora obcaecati rem aperiam eligendi.</p>
+
+    <div id="line"></div>
+
+    <button id="btn1">Add text</button>
+    <button id="btn2">Hide text</button>
+    <button id="btn3">Slide down</button>
+    <button id="btn4">Slide up</button>
+    <p id="txt">This text is added using jQuery methods</p>
+
+    <div id="line2"></div>
+
+    <h3>Click here for lorem ipsum paragraph</h3>
+    <p id="pH3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div></div>
+
+    <button id="btn5">Photo fade-in</button>
+    <button id="btn6">Photo fade-out</button>
+    <button id="btn7">Photo slide toggle</button>
+    <br><br>
+    <button id="btn8">Add text before this button</button>
+    <button id="btn9">Add text after this button</button>
+    <p id="pSPAN">This is <span id="span1"></span> logo</p>
+    <img src="logo.png" id="imgjQuery">
+
+    <div></div>
+
+    <p id="pSPAN2">1...2...</p>
+
+    <button id="btn10">Change width</button><br><br>
+    <img src="pacman.gif" width="200" height="200" id="pacman">
+    <br><br>
+    <button id="btn11">val</button>
+    <br><br>
+    <form>
+        <label>
+    username:<input type="text" id="txtform">
+        </label>
+    </form>
+
+</body>
+
+</html>

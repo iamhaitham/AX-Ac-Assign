@@ -1,0 +1,175 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.elementName {
+    color: #2c13a8;
+    font-weight: 700;
+    font-size: 140%;
+}
+
+#C1C2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.C1C2 {
+    background-color: #689bff;
+    border: 1px solid #7d838e;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+.C2 {
+    margin-right: 10px;
+    margin-top: 67px;
+}
+
+.C3toC12 {
+    background-color: #fd9a98;
+    border: 1px solid #7d838e;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+#C3toC12 {
+    display: flex;
+    flex-direction: row;
+}
+
+.C3,
+.C4,
+.C5,
+.C6,
+.C7,
+.C8,
+.C9,
+.C10,
+.C11,
+.C12 {
+    margin-top: 201px;
+}
+
+.C12 {
+    margin-right: 3px;
+}
+
+.C13toC18 {
+    background-color: #fecb00;
+    border: 1px solid #7d838e;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+#C13toC18 {
+    display: flex;
+    flex-direction: row;
+}
+
+.C13,
+.C14,
+.C15,
+.C16,
+.C17 {
+    margin-top: 67px;
+}
+
+#C1toC18 {
+    display: flex;
+    flex-direction: row;
+    /*Change up and left to 67*/
+    margin: -475px 50px 25px 67px;
+}
+
+#Bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.Lanthanoids,
+.Actinoids {
+    background-color: #1fca21;
+    border: 1px solid #7d838e;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+#Lanthanoids {
+    display: flex;
+    flex-direction: row;
+    margin-left: -14px;
+}
+
+#Actinoids {
+    display: flex;
+    flex-direction: row;
+    margin-left: -13px;
+}
+
+#ABOVE {
+    color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+#ABOVE div {
+    width: 62px;
+    height: 62px;
+    margin-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend1 {
+    margin-top: 18px;
+    margin-left: 80px;
+    margin-right: 50px;
+    color: red;
+}
+
+.legend2 {
+    margin-top: 18px;
+    color: red;
+}
+
+#SIDE {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#SIDE div {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

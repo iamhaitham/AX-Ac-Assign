@@ -1,0 +1,75 @@
+I have predicted  13  out of 15.
+
+Predict 1:
+35
+
+Predict 2:
+8
+
+Predict 3:
+6
+
+Predict 4:
+3
+9
+
+Predict 5:
+40
+
+Predict 6:
+4
+
+Predict 7:
+10
+3
+30
+
+Predict 8:
+3
+4
+
+Predict 9:
+2
+5
+8
+11
+
+Predict 10:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+
+Predict 11:
+Function was not called and thus nothing will be printed
+
+Predict 12:
+Function was not called and thus nothing will be printed
+
+Predict 13:
+10
+
+Predict 14:
+15
+10
+
+Predict 15:
+15
+15

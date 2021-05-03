@@ -1,0 +1,25 @@
+pwd
+
+ls 
+
+cd WesternForest
+ls
+less Sign
+
+cd ..
+cd WesternForest
+ls
+cd SpellCastingAcademy
+ls
+cd PracticeRoom
+ls
+less PracticeDummy4
+cd ..
+cd ..
+cd ..
+ls
+cd NorthernMeadow
+ls
+cd EasternMountains
+ls
+less OldMan

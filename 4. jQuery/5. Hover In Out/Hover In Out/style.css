@@ -1,0 +1,16 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(112, 112, 112);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}

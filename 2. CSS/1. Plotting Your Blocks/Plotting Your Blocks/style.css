@@ -1,0 +1,67 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#site_body {
+    display: flex;
+    flex-direction: row;
+}
+
+#header {
+    margin: 15px;
+    height: 150px;
+    width: 95%;
+    background-color: green;
+}
+
+#navigation {
+    margin: 15px;
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+}
+
+#main_content {
+    min-height: 400px;
+    width: 700px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5%;
+    margin-top: 1.6%;
+    margin-bottom: 15px;
+}
+
+#sub {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 25px 20px 10px;
+}
+
+.subcontents {
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 8px;
+}
+
+#advertisement {
+    min-height: 120px;
+    width: 93%;
+    background-color: purple;
+    margin: 0px 1px 40px 17.7px;
+}
