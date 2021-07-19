@@ -1,0 +1,9 @@
+body{
+    display:flex;flex-direction:column;
+}
+img{
+    margin-left:50%;
+    margin-bottom:1%;
+    width:300px;
+    height:100px;
+}
